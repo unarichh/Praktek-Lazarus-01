@@ -32,7 +32,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-    ShowMessage('Hallo '+eNama.TextHint);
+    ShowMessage('Hallo '+eNama.Text);
 end;
 
 end.
