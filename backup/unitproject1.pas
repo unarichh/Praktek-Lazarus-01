@@ -1,4 +1,4 @@
-unit Praktek01;
+unit unitproject1;
 
 {$mode objfpc}{$H+}
 
@@ -13,7 +13,7 @@ type
 
   TForm1 = class(TForm)
     Button1: TButton;
-    Hallo: TButton;
+    eNama: TEdit;
     procedure Button1Click(Sender: TObject);
   private
 
@@ -32,7 +32,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  ShowMessage('Hallo World');
+    ShowMessage('Hallo '+eNama.TextHint);
 end;
 
 end.
